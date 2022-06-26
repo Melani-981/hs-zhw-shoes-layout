@@ -24,4 +24,33 @@
 
 /* Positioning Classes */
 
+.deals {
+  column-count: 3;
+  column-gap: 40px;
+  column-rule-style: solid;
+  column-rule-width: 1px;
+  margin-top: 10px;
+  /*column-rule-color: lightblue;*/
+}
 
+
+
+.details {
+  column-count: 3;
+  column-gap: 40px;
+  column-rule-style: solid;
+  column-rule-width: 1px;
+  margin-top: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.featured {
+  display: flex;
+  column-count: 2;
+  column-gap: 40px;
+  column-rule-style: solid;
+  
+}
+.shadow1 {
+  width: 80%;
+}
